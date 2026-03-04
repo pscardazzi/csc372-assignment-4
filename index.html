@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+  Name: Pedro Magalhaes Brito Scardazzi
+  Date: 03.04.2026
+  CSC 372-01
+
+  This is the index.html page for my 4th assignment of web development work. This is an attempt at a rock-paper-scissors game,
+  using Javascript, random numbers and timers to create a "thinking" computer opponent.
+-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>R.P.S.</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <h1>Rock, Paper, Scissors, Shoot!</h1>
+        <div class = "p1">
+            <h2>Player</h2>
+            <p>What will you choose?</p>
+            <img id="rock" src="rock.PNG" alt="Rock">
+            <img id="paper" src="paper.PNG" alt ="Paper">
+            <img id="scissors" src="scissors.PNG" alt="Scissors">
+        </div>
+        <div class = "cpu">
+            <h2>Computer</h2>
+            <p>Your opponent's hand:</p>
+            <img id="question" src="question-mark.PNG" alt="Question Mark">
+        </div>
+        <br>
+        <section class = "results">
+            <h2>Results</h2>
+            <p class="res"><!--To be updated in real time at the website--></p>
+            <p>Player Score: <span class="pscore"></span></p>
+            <p>Computer Score: <span class="cscore"></span></p>
+            <p>Ties: <span class="tie"></span></p>
+        </section>
+    </body>
+</html>
